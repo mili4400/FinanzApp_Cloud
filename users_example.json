@@ -1,0 +1,14 @@
+{
+  "usuarios": [
+    {
+      "username": "admin",
+      "password": "$2b$12$IYYL9bx7mC5RtEbtdNqC.OsEFe9AW.PVqhxYRjet.YxNzY5TcZz5G",
+      "historial": []
+    },
+    {
+      "username": "usuario_demo",
+      "password": "$2b$12$7kjE1KtvNfGi4UFYRbBsUezlCSDce4a8fVhgxagLQLziEZdG4awEa",
+      "historial": []
+    }
+  ]
+}
