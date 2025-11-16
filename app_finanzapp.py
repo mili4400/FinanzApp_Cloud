@@ -168,7 +168,7 @@ if st.session_state["user"] is None:
         if authenticate_user(uname.strip(), pwd):
             st.session_state["user"] = uname.strip()
             st.success(f"{L['login']} ✅")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Usuario o contraseña incorrectos" if st.session_state["lang"]=="es" else "Invalid username or password")
     st.stop()
