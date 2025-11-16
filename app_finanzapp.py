@@ -193,7 +193,7 @@ if st.sidebar.button(L["add_user"]) and st.session_state.get("user") == "admin":
 
 if st.sidebar.button(L["logout"]):
     st.session_state.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 st.title("FinanzApp")
 
