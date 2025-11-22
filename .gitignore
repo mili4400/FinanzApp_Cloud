@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .env
+.env.*
 .DS_Store
-secrets.toml
-users.json
+*.zip
